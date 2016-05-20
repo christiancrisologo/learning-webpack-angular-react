@@ -1,0 +1,24 @@
+{
+  "name": "webpack-angular",
+  "version": "1.0.0",
+  "description": "for webpack collboration with angular",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server -p "
+  },
+  "author": "christian-crisologo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "jshint": "^2.9.2",
+    "jshint-loader": "^0.8.3",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.5"
+  }
+}
